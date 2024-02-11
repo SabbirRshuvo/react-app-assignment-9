@@ -11,7 +11,7 @@ const Reviews = () => {
   }, [reviews, setReviews]);
   return (
     <div className="container">
-      <h2>THis is reviews page{reviews.length}</h2>
+      <h2>Total users: {reviews.length}</h2>
       {
         reviews.map(review => <Review
         key={review.id}

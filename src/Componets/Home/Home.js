@@ -3,7 +3,6 @@ import "./Home.css";
 import abc from '../photo/photo.png'
 
 const Home = () => {
-  console.log(abc);
   return (
     <div className="container">
       <div className="header-container">
